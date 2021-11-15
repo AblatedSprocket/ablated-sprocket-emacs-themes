@@ -74,33 +74,25 @@
   (as-theme-light3          "#e1ddc9" "#a8a8a8")
   (as-theme-light4          "#dcd8c4" "#949494")
 
-  (as-theme-bright_red      "#e67e80" "#d75f5f")
-  (as-theme-bright_green    "#a7c080" "#afaf00")
-  (as-theme-bright_yellow   "#dbbc7f" "#ffaf00")
-  (as-theme-bright_blue     "#7fbbb3" "#87afaf")
-  (as-theme-bright_purple   "#d699b6" "#d787af")
-  (as-theme-bright_aqua     "#83c092" "#87af87")
-  (as-theme-bright_orange   "#e69875" "#ff8700")
+  (as-theme-palette1      "#e67e80" "#d75f5f")
+  (as-theme-palette2    "#a7c080" "#afaf00")
+  (as-theme-palette3   "#dbbc7f" "#ffaf00")
+  (as-theme-palette4     "#7fbbb3" "#87afaf")
+  (as-theme-palette5   "#d699b6" "#d787af")
+  (as-theme-palette6     "#83c092" "#87af87")
+  (as-theme-palette7   "#e69875" "#ff8700")
 
-  (as-theme-neutral_red      "#e67e80" "#d75f5f")
-  (as-theme-neutral_green    "#a7c080" "#afaf00")
-  (as-theme-neutral_yellow   "#dbbc7f" "#ffaf00")
-  (as-theme-neutral_blue     "#7fbbb3" "#87afaf")
-  (as-theme-neutral_purple   "#d699b6" "#d787af")
-  (as-theme-neutral_aqua     "#83c092" "#87af87")
-  (as-theme-neutral_orange   "#e69875" "#ff8700")
+  (as-theme-faded_palette1       "#b7596a" "#d75f5f")
+  (as-theme-faded_palette2     "#879c74" "#afaf00")
+  (as-theme-faded_palette3    "#b89871" "#ffaf00")
+  (as-theme-faded_palette4      "#419ba3" "#87afaf")
+  (as-theme-faded_palette5    "#b475a1" "#d787af")
+  (as-theme-faded_palette6      "#5d9d80" "#87af87")
+  (as-theme-faded_palette7    "#be6d6a" "#ff8700")
 
-  (as-theme-faded_red       "#b7596a" "#d75f5f")
-  (as-theme-faded_green     "#879c74" "#afaf00")
-  (as-theme-faded_yellow    "#b89871" "#ffaf00")
-  (as-theme-faded_blue      "#419ba3" "#87afaf")
-  (as-theme-faded_purple    "#b475a1" "#d787af")
-  (as-theme-faded_aqua      "#5d9d80" "#87af87")
-  (as-theme-faded_orange    "#be6d6a" "#ff8700")
-
-  (as-theme-dark_red        "#544247" "#5f0000")
-  (as-theme-dark_blue       "#3b5360" "#000087")
-  (as-theme-dark_aqua       "#445349" "#005f5f")
+  (as-theme-dark_palette1        "#544247" "#5f0000")
+  (as-theme-dark_palette4       "#3b5360" "#000087")
+  (as-theme-dark_palette6       "#445349" "#005f5f")
 
   (as-theme-delimiter-one   "#419ba3" "#008787")
   (as-theme-delimiter-two   "#b475a1" "#d75f87")
@@ -108,11 +100,6 @@
   (as-theme-delimiter-four  "#be6d6a" "#d75f00")
   (as-theme-white           "#FFFFFF" "#FFFFFF")
   (as-theme-black           "#000000" "#000000")
-  (as-theme-sienna          "#c57fa4" "#d7875f")
-  (as-theme-lightblue4      "#62afb8" "#5fafaf")
-  (as-theme-burlywood4      "#a3ab9b" "#afaf87")
-  (as-theme-aquamarine4     "#7fbbb3" "#87af87")
-  (as-theme-turquoise4      "#5dc2d6" "#5fafaf")
 
   (as-theme-ediff-current-diff-A        "#544247" "#4f2121")
   (as-theme-ediff-current-diff-B        "#504f45" "#5f5f00")
@@ -131,12 +118,12 @@
  (custom-theme-set-variables 'everforest-dark
                              `(ansi-color-names-vector
                                [,as-theme-dark1
-                                ,as-theme-bright_red
-                                ,as-theme-bright_green
-                                ,as-theme-bright_yellow
-                                ,as-theme-bright_blue
-                                ,as-theme-bright_purple
-                                ,as-theme-bright_aqua
+                                ,as-theme-palette1
+                                ,as-theme-palette2
+                                ,as-theme-palette3
+                                ,as-theme-palette4
+                                ,as-theme-palette5
+                                ,as-theme-palette6
                                 ,as-theme-light1])
 			     `(pdf-view-midnight-colors '(,as-theme-light0 . ,as-theme-bg))))
 
