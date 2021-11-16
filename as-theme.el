@@ -296,7 +296,7 @@
      (term-color-black                          (:foreground as-theme-dark2 :background as-theme-dark1))
      (term-color-blue                           (:foreground as-theme-palette4 :background as-theme-palette4))
      (term-color-cyan                           (:foreground as-theme-palette6 :background as-theme-palette6))
-     (term-color-green                          (:foreground as-theme-palette2 :background as-theme-bright_green))
+     (term-color-green                          (:foreground as-theme-palette2 :background as-theme-palette2))
      (term-color-magenta                        (:foreground as-theme-palette5 :background as-theme-palette5))
      (term-color-red                            (:foreground as-theme-palette1 :background as-theme-palette1))
      (term-color-white                          (:foreground as-theme-light1 :background as-theme-light1))
