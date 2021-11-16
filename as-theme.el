@@ -276,7 +276,7 @@
      (company-tooltip-common-selection          (:foreground as-theme-palette4 :underline t))
      (company-preview-common                    (:foreground as-theme-light0))
      (company-preview                           (:background as-theme-faded_palette4))
-     (company-preview-search                    (:background as-theme-palette_4))
+     (company-preview-search                    (:background as-theme-palette4))
      (company-template-field                    (:foregrqund as-theme-black :background as-theme-palette3))
      (company-echo-common                       (:foreground as-theme-faded_palette1))
 
