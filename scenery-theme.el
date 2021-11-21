@@ -57,13 +57,13 @@
  ((((class color) (min-colors #xFFFFFF))        ; col 1 GUI/24bit
    ((class color) (min-colors #xFF)))           ; col 2 Xterm/256
 
-  (as-theme-dark0_hard      "#121954" "#1c1c1c")
-  (as-theme-dark0           "#161f5d" "#262626")
-  (as-theme-dark0_soft      "#223170" "#303030")
-  (as-theme-dark1           "#324484" "#3a3a3a")
-  (as-theme-dark2           "#40518f" "#4e4e4e")
-  (as-theme-dark3           "#555c8e" "#626262")
-  (as-theme-dark4           "#616892" "#767676")
+  (as-theme-dark0_hard      "#2b3339" "#1c1c1c")
+  (as-theme-dark0           "#2f383e" "#262626")
+  (as-theme-dark0_soft      "#323d43" "#303030")
+  (as-theme-dark1           "#374247" "#3a3a3a")
+  (as-theme-dark2           "#404c51" "#4e4e4e")
+  (as-theme-dark3           "#4a555b" "#626262")
+  (as-theme-dark4           "#525c62" "#767676")
 
   (as-theme-gray "#7a8478" "#8a8a8a")
 
