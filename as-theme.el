@@ -77,7 +77,8 @@
      (highlight                                         (:background as-theme-dark4 :foreground as-theme-light0))
      (homoglyph                                         (:foreground as-theme-palette3))
      (match                                             (:foreground as-theme-dark0 :background as-theme-palette4))
-
+     (compilation-mode-line-exit                        (:foreground as-theme-palette2))
+     (compilation-mode-line-fail                        (:foreground as-theme-palette1))
      ;; Customize faces
      (widget-field                                      (:background as-theme-dark3))
      (custom-group-tag                                  (:foreground as-theme-palette4 :weight 'bold))
